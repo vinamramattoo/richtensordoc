@@ -13,7 +13,7 @@ python xml_to_csv.py annotations/
 ```
 export PYTHONPATH=$PYTHONPATH:`pwd`/research:`pwd`/research/slim
 ```
-#### 8. to generate tf records  alter the generate_tfrecord and change watchback to whatever model you are training then run 
+#### 8. to generate tf records  alter the generate_tfrecord and  run 
 ```
 python generate_tfrecord.py --csv_input=data/train_labels.csv  --output_path=data/train.record --image_dir=images  
 ```
